@@ -7,6 +7,12 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
     * [`agents.py`](game2048/agents.py): the `Agent` class with instances.
     * [`displays.py`](game2048/displays.py): the `Display` class with instances, to show the `Game` state.
     * [`expectimax/`](game2048/expectimax): a powerful ExpectiMax agent by [here](https://github.com/nneonneo/2048-ai).
+* [`MyCode/`](MyCode/): the main work to complete the task.
+    * [`agent.py`](MyCode/agent.py): the `Agent` I create as `MyAgent`.
+    * [`mymodel.py`](MyCode/mymodel.py): the model I build.
+    * [`onehot.py`](MyCode/onehot.py): used to change to game board to a one_hot_encoded form.
+    * [`train.py/`](MyCode/train.py): the codes used to train the model.
+    * [`trained_model.h5/`](MyCode/trained_model.h5): the final trained model.
 * [`explore.ipynb`](explore.ipynb): introduce how to use the `Agent`, `Display` and `Game`.
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
