@@ -11,8 +11,8 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
     * [`agent.py`](MyCode/agent.py): the `Agent` I create as `MyAgent`.
     * [`mymodel.py`](MyCode/mymodel.py): the model I build.
     * [`onehot.py`](MyCode/onehot.py): used to change to game board to a one_hot_encoded form.
-    * [`train.py/`](MyCode/train.py): the codes used to train the model.
-    * [`trained_model.h5/`](MyCode/trained_model.h5): the final trained model.
+    * [`train.py`](MyCode/train.py): the codes used to train the model.
+    * [`trained_model.h5`](MyCode/trained_model.h5): the final trained model.
 * [`explore.ipynb`](explore.ipynb): introduce how to use the `Agent`, `Display` and `Game`.
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
